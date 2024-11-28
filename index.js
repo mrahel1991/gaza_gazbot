@@ -119,7 +119,8 @@ bot.on('message', (msg) => {
 في حال حدوث اي خلل 
  يمكنك التواصل معنا عبر:
 
-💬 تلجرام: [https://t.me/AhmedGarqoud]
+
+💬 تلجرام: [https://t.me/AhmedGarqoud]
         `;
         bot.sendMessage(chatId, contactMessage, { parse_mode: 'Markdown' });
     } else if (input === "📖 معلومات عن البوت") {
@@ -159,7 +160,7 @@ bot.on('message', (msg) => {
 🆔 **هوية الموزع**: ${user.distributorId}
 
 📜 **الحالة**: ${user.status}
-📅 **تاريخ صدور الكشف **: ${user.deliveryDate}
+📅 **تاريخ صدور الكشف **: ("25 / 11/ 2024 ")
             `;
             bot.sendMessage(chatId, response, { parse_mode: 'Markdown' });
         } else {
