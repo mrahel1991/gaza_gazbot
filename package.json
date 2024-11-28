@@ -1,0 +1,21 @@
+{
+  "name": "telegram-bot-students",
+  "version": "1.0.0",
+  "description": "Telegram bot to fetch student results from an Excel file.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0",
+    "express": "^4.21.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "glob": "^9.0.0",
+    "rimraf": "^4.0.0",
+    "request-promise-core": "^1.1.4",
+    "unzipper": "^0.10.11"
+  },
+  "author": "",
+  "license": "ISC"
+}
