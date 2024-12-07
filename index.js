@@ -160,7 +160,7 @@ bot.on('message', (msg) => {
 🆔 **هوية الموزع**: ${user.distributorId}
 
 📜 **الحالة**: ${user.status}
-📅 **تاريخ صدور الكشف **: ("30 / 11/ 2024 ")
+📅 **تاريخ صدور الكشف **: ("09 /12/ 2024 ")
             `;
             bot.sendMessage(chatId, response, { parse_mode: 'Markdown' });
         } else {
